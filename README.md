@@ -2,6 +2,10 @@
 
 Hi! sadaf and the technical hiring team this the ecommerce application which was given to me for process of interview below is the complete technical description of the project
 
+# For the ui part i reffered a figma design which was freely available on figma 
+https://www.figma.com/community/file/1245385141730558466/laza-ecommerce-mobile-app-ui-kit
+
+
 ## What this app does
 
 - You can browse products and search for what you want
