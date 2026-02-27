@@ -1,0 +1,107 @@
+export const COLORS = {
+  light: {
+    primary: '#6C63FF',
+    primaryDark: '#5A52D5',
+    primaryLight: '#8B85FF',
+    secondary: '#FF6584',
+    background: '#F8F9FA',
+    surface: '#FFFFFF',
+    surfaceVariant: '#F0F0F5',
+    text: '#1A1A2E',
+    textSecondary: '#6B7280',
+    textTertiary: '#9CA3AF',
+    border: '#E5E7EB',
+    error: '#EF4444',
+    success: '#10B981',
+    warning: '#F59E0B',
+    rating: '#FFB800',
+    shadow: '#000000',
+    card: '#FFFFFF',
+    statusBar: 'dark-content' as const,
+    tabBar: '#FFFFFF',
+    skeleton: '#E1E9EE',
+    skeletonHighlight: '#F2F8FC',
+  },
+  dark: {
+    primary: '#8B85FF',
+    primaryDark: '#6C63FF',
+    primaryLight: '#A8A3FF',
+    secondary: '#FF6584',
+    background: '#0F0F1A',
+    surface: '#1A1A2E',
+    surfaceVariant: '#252540',
+    text: '#FFFFFF',
+    textSecondary: '#A0A0B2',
+    textTertiary: '#6B6B80',
+    border: '#2D2D44',
+    error: '#EF4444',
+    success: '#10B981',
+    warning: '#F59E0B',
+    rating: '#FFB800',
+    shadow: '#000000',
+    card: '#1A1A2E',
+    statusBar: 'light-content' as const,
+    tabBar: '#1A1A2E',
+    skeleton: '#252540',
+    skeletonHighlight: '#2D2D44',
+  },
+};
+
+export const FONTS = {
+  regular: 'System',
+  medium: 'System',
+  bold: 'System',
+  sizes: {
+    xs: 10,
+    sm: 12,
+    md: 14,
+    lg: 16,
+    xl: 18,
+    xxl: 22,
+    xxxl: 28,
+    title: 32,
+  },
+};
+
+export const SPACING = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  xxxl: 32,
+};
+
+export const RADIUS = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 20,
+  xxl: 24,
+  full: 9999,
+};
+
+export const SHADOWS = {
+  small: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  medium: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+  large: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.2,
+    shadowRadius: 16,
+    elevation: 8,
+  },
+};
