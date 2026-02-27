@@ -51,7 +51,7 @@ ShopEase/
 Make sure you have Node.js, React Native CLI, and Android Studio installed.
 
 ```bash
-# Step 1: Clone the repo
+# Step 1: Clone the repo  https://github.com/workbysurajmourya-rgb/shopease
 git clone 
 
 # Step 2: Go into the project folder
@@ -61,10 +61,10 @@ cd ShopEase
 npm install
 
 # Step 4: Start metro bundler
-npm start
+npx react-native start
 
 # Step 5: Run on android (open another terminal)
-npm run android
+npx react-native run-android
 ```
 
 If you face any gradle issues, try this:
