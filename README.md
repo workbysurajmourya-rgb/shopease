@@ -2,10 +2,6 @@
 
 Hi! sadaf and the technical hiring team this the ecommerce application which was given to me for process of interview below is the complete technical description of the project
 
-# For the ui part i reffered a figma design which was freely available on figma 
-https://www.figma.com/community/file/1245385141730558466/laza-ecommerce-mobile-app-ui-kit
-
-
 ## What this app does
 
 - You can browse products and search for what you want
@@ -16,6 +12,27 @@ https://www.figma.com/community/file/1245385141730558466/laza-ecommerce-mobile-a
 - Google Sign-In for login
 - Works offline too! If internet is gone, it shows cached data
 
+## Screenshots
+
+### Dark Mode
+
+| Login Screen | Google Sign-In | Home Screen |
+|:---:|:---:|:---:|
+| ![Login](screenshots/Screenshot_20260227-150031.ShopEase.png) | ![Google Sign-In](screenshots/Screenshot_20260227-150041.Google%20Play%20services.png) | ![Home Dark](screenshots/Screenshot_20260227-150102.ShopEase.png) |
+
+| Sort Products | Cart Screen | Profile Screen |
+|:---:|:---:|:---:|
+| ![Sort](screenshots/Screenshot_20260227-150053.ShopEase.png) | ![Cart Dark](screenshots/Screenshot_20260227-150105.ShopEase.png) | ![Profile Dark](screenshots/Screenshot_20260227-150109.ShopEase.png) |
+
+### Light Mode
+
+| Home Screen | Sort Products | Cart Screen |
+|:---:|:---:|:---:|
+| ![Home Light](screenshots/Screenshot_20260227-150120.ShopEase.png) | ![Sort Light](screenshots/Screenshot_20260227-150123.ShopEase.png) | ![Cart Light](screenshots/Screenshot_20260227-150117.ShopEase.png) |
+
+| Profile Screen | Google Sign-In |
+|:---:|:---:|
+| ![Profile Light](screenshots/Screenshot_20260227-150114.ShopEase.png) | ![Google Sign-In Light](screenshots/Screenshot_20260227-150132.Google%20Play%20services.png) |
 
 ## Tech Stack
 
@@ -55,8 +72,8 @@ ShopEase/
 Make sure you have Node.js, React Native CLI, and Android Studio installed.
 
 ```bash
-# Step 1: Clone the repo  https://github.com/workbysurajmourya-rgb/shopease
-git clone 
+# Step 1: Clone the repo
+git clone  https://github.com/workbysurajmourya-rgb/shopease
 
 # Step 2: Go into the project folder
 cd ShopEase
@@ -65,10 +82,10 @@ cd ShopEase
 npm install
 
 # Step 4: Start metro bundler
-npx react-native start
+npm start
 
 # Step 5: Run on android (open another terminal)
-npx react-native run-android
+npm run android
 ```
 
 If you face any gradle issues, try this:
